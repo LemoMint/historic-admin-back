@@ -23,30 +23,21 @@ class AuthorRepository extends CoreRepository
         return Model::class;
     }
 
-    public function all(): Collection
+    public function all(?string $search): Collection
     {
-        return $this->getStartConditions()->get();
+        $startConditions = $this->getStartConditions();
+
+        if ($search) {
+            $startConditions->where('surname', 'like', $search.'%')
+                ->orWhere('name', 'like', $search.'%')
+                ->orWhere('patronymic_name', 'like', $search.'%');
+        }
+
+        return $startConditions->get();
     }
 
     public function find(int $id): ?Model
     {
         return $this->getStartConditions()->find($id);
     }
-    // private function getAll(): Builder
-    // {
-    //     //todo expand the number of fields
-    //     $fields = [
-    //         'id',
-    //         'name',
-    //         'surname',
-    //         'patronymic_name'
-    //     ];
-
-    //     return $this->startConditions()->select($fields);
-    // }
-
-    // private function getStartConditions()
-    // {
-    //     return  $this->startConditions()->select($this->selectFields);
-    // }
 }

@@ -19,7 +19,6 @@ class AuthorResourceTest extends TestCase
 
         $authorResponseDto = new AuthorResource($author);
 
-        // $this->assertEquals(Author::find($author->id)->makeHidden('user_id')->toArray(), json_decode($authorResponseDto->toJson(), true));
-        $this->assertEquals($author->toArray(), json_decode($authorResponseDto->toJson(), true));
+        $this->assertEquals(Author::find($author->id)->toArray(), json_decode($authorResponseDto->toJson(), true));
     }
 }

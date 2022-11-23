@@ -25,6 +25,7 @@ return new class extends Migration
             $table->timestamps();
 
             $table->index('surname');
+            $table->index('name');
             $table->unique(['name', 'surname', 'patronymic_name']);
         });
     }

@@ -46,7 +46,7 @@ class AuthorRepositoryTest extends TestCase
     public function test_all_count_method()
     {
         $expectedAuthorsCount = count(Author::all());
-        $actualAuthorsCount = count($this->authorRepository->all());
+        $actualAuthorsCount = count($this->authorRepository->all(null));
 
         $this->assertTrue($expectedAuthorsCount !== 0);
         $this->assertEquals($expectedAuthorsCount, $actualAuthorsCount);

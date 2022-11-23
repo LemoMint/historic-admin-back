@@ -19,4 +19,9 @@ class Author extends Model
     {
         return $this->belongsToMany(Publication::class);
     }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }

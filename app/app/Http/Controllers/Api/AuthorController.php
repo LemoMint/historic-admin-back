@@ -2,63 +2,53 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Controllers\Controller;
+use App\Models\Author;
 use Illuminate\Http\Request;
+use App\Services\AuthorService;
+use Illuminate\Http\JsonResponse;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
+use App\Http\Resources\AuthorResource;
+use App\Http\Requests\Author\AuthorCreateDto;
+use App\Http\Requests\Author\AuthorUpdateDto;
 
 class AuthorController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+    public function __construct(private AuthorService $authorService) {}
+
+    public function index(Request $request): JsonResponse
     {
-        //
+        $search = $request->query('_search');
+        $a = $this->authorService->getAll($search);
+        return response()->json(AuthorResource::collection(
+            $this->authorService->getAll($search)
+        ));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
+    public function store(AuthorCreateDto $dto): JsonResponse
     {
-        //
+        return response()->json(new AuthorResource(
+            $this->authorService->store($dto)
+        ));
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
+    public function update(AuthorUpdateDto $dto, int $id): JsonResponse
     {
-        //
+        $author = $this->authorService->find($id);
+
+        $this->authorize('update', $author);
+
+        return response()->json(new AuthorResource(
+            $this->authorService->update($dto, $author)
+        ));
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
+    public function destroy(int $id): void
     {
-        //
-    }
+        $author = $this->authorService->find($id);
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
+        $this->authorize('update', $author);
+
+        $this->authorService->destroy($author);
     }
 }
