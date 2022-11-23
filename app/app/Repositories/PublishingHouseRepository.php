@@ -3,7 +3,7 @@
 
 namespace App\Repositories;
 
-use App\Models\Author as Model;
+use App\Models\PublishingHouse as Model;
 use Illuminate\Database\Eloquent\Collection;
 
 class PublishingHouseRepository extends CoreRepository
@@ -11,8 +11,7 @@ class PublishingHouseRepository extends CoreRepository
     protected array $selectFields = [
         'id',
         'name',
-        'description',
-        'isImmutable',
+        'address',
         'created_at',
         'updated_at',
         'user_id'
@@ -23,9 +22,15 @@ class PublishingHouseRepository extends CoreRepository
         return Model::class;
     }
 
-    public function all(): Collection
+    public function all(?string $search): Collection
     {
-        return $this->getStartConditions()->get();
+        $startConditions = $this->getStartConditions();
+
+        if ($search) {
+            $startConditions->where('name', 'ilike', '%'.$search.'%');
+        }
+
+        return $startConditions->get();
     }
 
     public function find(int $id): ?Model

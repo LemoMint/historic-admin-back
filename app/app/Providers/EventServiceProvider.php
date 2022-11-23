@@ -31,6 +31,7 @@ class EventServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        PublishingHouse::observe(PublishingHouseObserver::class);
         Author::observe(AuthorObserver::class);
     }
 

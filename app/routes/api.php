@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\RoleController;
 use App\Http\Controllers\Api\PublicationController;
-use App\Http\Controllers\Api\DocumentCategoryController;
 // use App\Http\Controllers\Api\AuthController;
 // use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\Api\AuthorController;
@@ -37,6 +36,7 @@ Route::prefix('/v1')
 
             Route::middleware('admin')->group(function() {
                 Route::apiResource('authors', AuthorController::class);//->middleware(['admin']);
+                Route::apiResource('publishing-houses', PublishingHouseController::class);//->middleware(['admin']);
                 Route::apiResource('roles', RoleController::class);//->middleware(['admin']);
                 Route::apiResource('publication', PublicationController::class);
             });
