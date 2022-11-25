@@ -36,6 +36,12 @@ return [
             'throw' => false,
         ],
 
+        'documents' => [
+            'driver' => 'local',
+            'root' => env('DOCUMENT_STORAGE_PATH'),
+            'throw' => false
+        ],
+
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),

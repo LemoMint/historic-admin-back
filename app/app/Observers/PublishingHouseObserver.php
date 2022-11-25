@@ -10,6 +10,8 @@ class PublishingHouseObserver
     public function creating(PublishingHouse $publishingHouse)
     {
         if (!$publishingHouse->user) {
+            Auth::login(User::first());
+
             $publishingHouse->user()->associate(Auth::user());
         }
     }

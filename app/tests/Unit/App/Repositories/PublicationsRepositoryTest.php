@@ -17,6 +17,7 @@ use App\Repositories\PublicationRepository;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
+use App\Http\Requests\Publication\PublicationSortRequest;
 
 class PublicationsRepositoryTest extends TestCase
 {
@@ -70,7 +71,7 @@ class PublicationsRepositoryTest extends TestCase
     public function test_all_count_method()
     {
         $expectedAuthorsCount = count(Publication::all());
-        $actualAuthorsCount = count($this->publicationRepository->all());
+        $actualAuthorsCount = count($this->publicationRepository->all(new PublicationSortRequest()));
 
         $this->assertTrue($expectedAuthorsCount !== 0);
         $this->assertEquals($expectedAuthorsCount, $actualAuthorsCount);

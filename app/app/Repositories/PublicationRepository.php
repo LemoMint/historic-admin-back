@@ -5,6 +5,7 @@ namespace App\Repositories;
 
 use App\Models\Publication as Model;
 use Illuminate\Database\Eloquent\Collection;
+use App\Http\Requests\Publication\PublicationSortRequest;
 
 class PublicationRepository extends CoreRepository
 {
@@ -33,15 +34,25 @@ class PublicationRepository extends CoreRepository
         return Model::class;
     }
 
-    public function all(): Collection
+    public function all(PublicationSortRequest $params): Collection
     {
-        $a = $this->getStartConditions();
-        $c = $a->get();
-        return $this->getStartConditions()->get();
+        $startConditions = $this->getStartConditions();
+
+        if ($params->get('_search')) {
+            $startConditions->where('name', 'like', '%'.$params->get('_search').'%');
+        }
+
+        if ($params->get('_sortBy') && $params->get('_sortOrder')) {
+            $startConditions->orderBy(
+                $params->get('_sortBy'), $params->get('_sortOrder')
+            );
+        }
+
+        return $startConditions->where('deleted_at', null)->get();
     }
 
     public function find(int $id): ?Model
     {
-        return $this->getStartConditions()->find($id);
+        return $this->getStartConditions()->withTrashed()->find($id);
     }
 }

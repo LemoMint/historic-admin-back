@@ -26,15 +26,15 @@ class PublicationUpdateDto extends AbstractApiRequest
     public function rules()
     {
         return [
-            'name' => 'required',
+            'name' => ['required'],
             'description' => ['required'],
             'publication_year' => ['nullable', 'numeric','min:1','max:2100'],
             'publication_century' => ['nullable', 'numeric','min:1', 'max:22'],
-            'publishing_house' => ['nullable', 'integer', 'exists:publishing_houses,id'],
+            'publishing_house_id' => ['nullable', 'integer', 'exists:publishing_houses,id'],
             'document' => ['required', File::types(['mp3', 'mp4', 'pdf', 'jpg', 'jpeg', 'png'])],
             'authors' => ['array'],
             'authors.*' => ['exists:authors,id'],
-            'categories' => ['nullable'],
+            // 'categories' => ['nullable'],
         ];
     }
 }

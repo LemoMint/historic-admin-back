@@ -19,7 +19,7 @@ class AuthorController extends Controller
     public function index(Request $request): JsonResponse
     {
         $search = $request->query('_search');
-        $a = $this->authorService->getAll($search);
+
         return response()->json(AuthorResource::collection(
             $this->authorService->getAll($search)
         ));
