@@ -65,4 +65,4 @@ RUN apt-get update \
 WORKDIR /var/www/html/
 
 RUN usermod -u 1000 www-data
-RUN chown 1000:www-data /var/www/html/
+RUN chown 1000:www-data /var/www

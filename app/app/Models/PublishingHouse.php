@@ -14,8 +14,8 @@ class PublishingHouse extends Model
         'address'
     ];
 
-    public function publications()
+    public function user()
     {
-        $this->hasMany(Publication::class);
+        return $this->belongsTo(User::class);
     }
 }

@@ -20,8 +20,9 @@ class AuthorControllerTest extends TestUsers
 
     public function test_get_method_ok()
     {
-        Author::factory()->count(5)->create();
         $this->actingAs($this->adminUser);
+
+        Author::factory()->count(5)->create();
         $response = $this->get(self::ROUTE);
 
         $this->assertTrue($response->isOk());

@@ -1,9 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\RoleController;
 use App\Http\Controllers\Api\PublicationController;
-use App\Http\Controllers\Api\DocumentCategoryController;
 // use App\Http\Controllers\Api\AuthController;
 // use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\Api\AuthorController;
@@ -34,11 +32,11 @@ Route::prefix('/v1')
             // Route::get('/auth/logout', [AuthController::class, 'logoutUser'])->name('logout');
             // Route::post('/auth/register', [AuthController::class, 'createUser'])->name('register');
             // Route::post('/auth/get-profile', [AuthController::class, 'getUser'])->name('get-current-user');
+            Route::apiResource('publications', PublicationController::class);
 
             Route::middleware('admin')->group(function() {
                 Route::apiResource('authors', AuthorController::class);//->middleware(['admin']);
-                Route::apiResource('roles', RoleController::class);//->middleware(['admin']);
-                Route::apiResource('publication', PublicationController::class);
+                Route::apiResource('publishing-houses', PublishingHouseController::class);//->middleware(['admin']);
             });
 
             Route::middleware('super-admin')->group(function() {

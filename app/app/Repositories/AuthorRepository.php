@@ -28,9 +28,9 @@ class AuthorRepository extends CoreRepository
         $startConditions = $this->getStartConditions();
 
         if ($search) {
-            $startConditions->where('surname', 'like', $search.'%')
-                ->orWhere('name', 'like', $search.'%')
-                ->orWhere('patronymic_name', 'like', $search.'%');
+            $startConditions->where('surname', 'ilike', '%'.$search.'%')
+                ->orWhere('name', 'ilike', '%'.$search.'%')
+                ->orWhere('patronymic_name', 'ilike', '%'.$search.'%');
         }
 
         return $startConditions->get();

@@ -3,13 +3,17 @@
 namespace App\Providers;
 
 use App\Models\Author;
+use App\Models\Document;
+use App\Models\Publication;
 use App\Models\PublishingHouse;
 use App\Observers\AuthorObserver;
-use App\Observers\PublishingHouseObserver;
+use App\Observers\DocumentUUIDObserver;
+use Illuminate\Support\Facades\Event;
+use App\Observers\PublicationObserver;
 use Illuminate\Auth\Events\Registered;
+use App\Observers\PublishingHouseObserver;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
-use Illuminate\Support\Facades\Event;
 
 class EventServiceProvider extends ServiceProvider
 {
@@ -31,7 +35,10 @@ class EventServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        PublishingHouse::observe(PublishingHouseObserver::class);
         Author::observe(AuthorObserver::class);
+        Publication::observe(PublicationObserver::class);
+        Document::observe(DocumentUUIDObserver::class);
     }
 
     /**

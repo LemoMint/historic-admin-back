@@ -3,62 +3,58 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
+use App\Services\PublicationService;
+use App\Http\Resources\PublicationResource;
+use App\Http\Requests\Publication\PublicationCreateDto;
+use App\Http\Requests\Publication\PublicationUpdateDto;
+use App\Http\Requests\Publication\PublicationSortRequest;
 
 class PublicationController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+    public function __construct(private PublicationService $publicationService) {}
+
+    public function index(PublicationSortRequest $request)
     {
-        //
+        return response()->json(
+            PublicationResource::collection(
+                $this->publicationService->getAll($request)
+            )
+        );
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
+    public function store(PublicationCreateDto $dto)
     {
-        //
+        return response()->json(
+            new PublicationResource($this->publicationService->store($dto))
+        );
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function show($id)
     {
-        //
+        return response()->json(
+            new PublicationResource(
+                $this->publicationService->find($id)
+            )
+        );
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
+    public function update(PublicationUpdateDto $dto, $id)
     {
-        //
+        $publication = $this->publicationService->find($id);
+
+        // $this->authorize('update', $publication);
+
+        return response()->json(
+            new PublicationResource($this->publicationService->update($dto, $publication))
+        );
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
-        //
+        $publication = $this->publicationService->find($id);
+
+        // $this->authorize('delete', $publication);
+
+        $this->publicationService->delete($publication);
     }
 }
