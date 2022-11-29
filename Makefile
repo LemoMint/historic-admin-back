@@ -12,3 +12,8 @@ exec_db:
 	$(COMPOSE) exec db bash
 stop:
 	$(COMPOSE) down
+
+kafka_list:
+	$(COMPOSE) exec kafka kafka-topics.sh --list --bootstrap-server localhost:9092
+kafka_consume_pdf:
+	$(COMPOSE) exec kafka kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic pdf --group historic

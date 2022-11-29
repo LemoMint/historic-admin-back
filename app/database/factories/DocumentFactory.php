@@ -20,7 +20,6 @@ class DocumentFactory extends Factory
             'file_name' => fake()->unique()->word(),
             'disk' => 'local',
             'extension' => '.pdf'
-
         ];
     }
 }

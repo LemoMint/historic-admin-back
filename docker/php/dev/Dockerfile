@@ -61,6 +61,27 @@ RUN apt-get update \
     && echo "request_terminate_timeout=900s" >> /usr/local/etc/php-fpm.conf
 
 # COPY ../config/xdebug.ini /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+RUN apt-get update \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y \
+        git \
+        libzip-dev \
+        zlib1g-dev \
+        unzip \
+        python \
+        && ( \
+            cd /tmp \
+            && mkdir librdkafka \
+            && cd librdkafka \
+            && git clone https://github.com/edenhill/librdkafka.git . \
+            && ./configure \
+            && make \
+            && make install \
+        ) \
+    && rm -r /var/lib/apt/lists/*
+
+RUN docker-php-ext-install -j$(nproc) zip \
+    && pecl install rdkafka \
+    && docker-php-ext-enable rdkafka
 
 WORKDIR /var/www/html/
 

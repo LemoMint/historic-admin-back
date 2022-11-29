@@ -7,6 +7,7 @@ use App\Models\Document;
 use App\Models\Publication;
 use App\Models\PublishingHouse;
 use App\Observers\AuthorObserver;
+use App\Observers\DocumentObserver;
 use App\Observers\DocumentUUIDObserver;
 use Illuminate\Support\Facades\Event;
 use App\Observers\PublicationObserver;
@@ -39,6 +40,7 @@ class EventServiceProvider extends ServiceProvider
         Author::observe(AuthorObserver::class);
         Publication::observe(PublicationObserver::class);
         Document::observe(DocumentUUIDObserver::class);
+        Document::observe(DocumentObserver::class);
     }
 
     /**

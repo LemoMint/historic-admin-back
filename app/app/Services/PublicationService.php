@@ -4,6 +4,7 @@
 namespace App\Services;
 
 use App\Models\User;
+use App\Models\Document;
 use App\Models\Publication;
 use App\Helpers\FileStorageHelper;
 use Illuminate\Support\Facades\Auth;
@@ -13,8 +14,6 @@ use Illuminate\Database\Eloquent\Collection;
 use App\Http\Requests\Publication\PublicationCreateDto;
 use App\Http\Requests\Publication\PublicationUpdateDto;
 use App\Http\Requests\Publication\PublicationSortRequest;
-use App\Models\Document;
-use Throwable;
 
 class PublicationService
 {
