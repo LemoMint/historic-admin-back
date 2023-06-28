@@ -1,0 +1,3146 @@
+message consumed
+{"body":{"file_name":"1.png","disk":"documents","extension":"png","uuid":"19eee8ac-adc2-4c68-a056-e6fbda85c54a","updated_at":"2022-12-17T03:53:59.000000Z","created_at":"2022-12-17T03:53:59.000000Z","id":3},"headers":[]}
+array:1 [ // app/Services/Recognition/Drivers/Yandex.php:46
+  "results" => array:1 [
+    0 => array:1 [
+      "results" => array:1 [
+        0 => array:1 [
+          "textDetection" => array:1 [
+            "pages" => array:1 [
+              0 => array:3 [
+                "blocks" => array:20 [
+                  0 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "172"
+                          "y" => "48"
+                        ]
+                        1 => array:2 [
+                          "x" => "172"
+                          "y" => "60"
+                        ]
+                        2 => array:2 [
+                          "x" => "533"
+                          "y" => "60"
+                        ]
+                        3 => array:2 [
+                          "x" => "533"
+                          "y" => "48"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:6 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "ИСТОРИЯ,"
+                            "confidence" => 0.9213066697
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "КУЛЬТУРА,"
+                            "confidence" => 0.9213066697
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "ЭКОНОМИКА"
+                            "confidence" => 0.9213066697
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "УРАЛА"
+                            "confidence" => 0.9213066697
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "И"
+                            "confidence" => 0.9213066697
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "ЗАУРАя"
+                            "confidence" => 0.9213066697
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9213066697
+                      ]
+                    ]
+                  ]
+                  1 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "286"
+                          "y" => "63"
+                        ]
+                        1 => array:2 [
+                          "x" => "286"
+                          "y" => "76"
+                        ]
+                        2 => array:2 [
+                          "x" => "429"
+                          "y" => "76"
+                        ]
+                        3 => array:2 [
+                          "x" => "429"
+                          "y" => "63"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:6 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "13"
+                            "confidence" => 0.9106880426
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "ноября"
+                            "confidence" => 0.9106880426
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "2015"
+                            "confidence" => 0.9106880426
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "г"
+                            "confidence" => 0.9106880426
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "С."
+                            "confidence" => 0.9106880426
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "87-"
+                            "confidence" => 0.9106880426
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9106880426
+                      ]
+                    ]
+                  ]
+                  2 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "589"
+                          "y" => "81"
+                        ]
+                        1 => array:2 [
+                          "x" => "589"
+                          "y" => "96"
+                        ]
+                        2 => array:2 [
+                          "x" => "622"
+                          "y" => "96"
+                        ]
+                        3 => array:2 [
+                          "x" => "622"
+                          "y" => "81"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:1 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "УДК"
+                            "confidence" => 0.8820751905
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.8820751905
+                      ]
+                    ]
+                  ]
+                  3 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "164"
+                          "y" => "111"
+                        ]
+                        1 => array:2 [
+                          "x" => "164"
+                          "y" => "126"
+                        ]
+                        2 => array:2 [
+                          "x" => "543"
+                          "y" => "126"
+                        ]
+                        3 => array:2 [
+                          "x" => "543"
+                          "y" => "111"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:6 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "исторический"
+                            "confidence" => 0.9795188308
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "текст"
+                            "confidence" => 0.9795188308
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "хуш"
+                            "confidence" => 0.9795188308
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "века"
+                            "confidence" => 0.9795188308
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "г."
+                            "confidence" => 0.9795188308
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "тобольска"
+                            "confidence" => 0.9795188308
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9795188308
+                      ]
+                    ]
+                  ]
+                  4 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "200"
+                          "y" => "129"
+                        ]
+                        1 => array:2 [
+                          "x" => "200"
+                          "y" => "143"
+                        ]
+                        2 => array:2 [
+                          "x" => "506"
+                          "y" => "143"
+                        ]
+                        3 => array:2 [
+                          "x" => "506"
+                          "y" => "129"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:4 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "В"
+                            "confidence" => 0.9106488228
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "аспекте"
+                            "confidence" => 0.9106488228
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "русской"
+                            "confidence" => 0.9106488228
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "лексикографии"
+                            "confidence" => 0.9106488228
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9106488228
+                      ]
+                    ]
+                  ]
+                  5 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "297"
+                          "y" => "160"
+                        ]
+                        1 => array:2 [
+                          "x" => "297"
+                          "y" => "174"
+                        ]
+                        2 => array:2 [
+                          "x" => "412"
+                          "y" => "174"
+                        ]
+                        3 => array:2 [
+                          "x" => "412"
+                          "y" => "160"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:3 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "М."
+                            "confidence" => 0.8944708109
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "С."
+                            "confidence" => 0.8944708109
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "Выхрыстюк"
+                            "confidence" => 0.8944708109
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.8944708109
+                      ]
+                    ]
+                  ]
+                  6 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "61"
+                          "y" => "191"
+                        ]
+                        1 => array:2 [
+                          "x" => "61"
+                          "y" => "271"
+                        ]
+                        2 => array:2 [
+                          "x" => "644"
+                          "y" => "271"
+                        ]
+                        3 => array:2 [
+                          "x" => "644"
+                          "y" => "191"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:7 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:4 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "В"
+                            "confidence" => 0.9374001622
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "историю"
+                            "confidence" => 0.9374001622
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "русского"
+                            "confidence" => 0.9374001622
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языка"
+                            "confidence" => 0.9374001622
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9374001622
+                      ]
+                      1 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:7 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "век"
+                            "confidence" => 0.9568299651
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "вошел"
+                            "confidence" => 0.9568299651
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "как"
+                            "confidence" => 0.9568299651
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "период"
+                            "confidence" => 0.9568299651
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "формирования"
+                            "confidence" => 0.9568299651
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "русского"
+                            "confidence" => 0.9568299651
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "литера-"
+                            "confidence" => 0.9568299651
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9568299651
+                      ]
+                      2 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:12 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "турного"
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языка"
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "на"
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "национальной"
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "основе."
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "На"
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "исконно"
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "русской"
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "территории"
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "к"
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                          10 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "этому"
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                          11 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "времени"
+                            "confidence" => 0.9503945708
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9503945708
+                      ]
+                      3 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:10 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "прекращается"
+                            "confidence" => 0.9392849803
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "образование"
+                            "confidence" => 0.9392849803
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "новых"
+                            "confidence" => 0.9392849803
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "диалектных"
+                            "confidence" => 0.9392849803
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "различий,"
+                            "confidence" => 0.9392849803
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "но"
+                            "confidence" => 0.9392849803
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "на"
+                            "confidence" => 0.9392849803
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "территории"
+                            "confidence" => 0.9392849803
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "позднего"
+                            "confidence" => 0.9392849803
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "заселе-"
+                            "confidence" => 0.9392849803
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9392849803
+                      ]
+                      4 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:12 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "ния,"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "к"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "числу"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "которых"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "относится"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "территория"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "за"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "Уралом,"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "начинают"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "складываться"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                          10 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "говоры"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                          11 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "вто-"
+                            "confidence" => 0.9419238567
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9419238567
+                      ]
+                      5 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:2 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "ричного"
+                            "confidence" => 0.9352843165
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "образования."
+                            "confidence" => 0.9352843165
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9352843165
+                      ]
+                      6 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:1 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "рич"
+                            "confidence" => 0.6971591711
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.6971591711
+                      ]
+                    ]
+                  ]
+                  7 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "89"
+                          "y" => "274"
+                        ]
+                        1 => array:2 [
+                          "x" => "89"
+                          "y" => "287"
+                        ]
+                        2 => array:2 [
+                          "x" => "314"
+                          "y" => "287"
+                        ]
+                        3 => array:2 [
+                          "x" => "314"
+                          "y" => "274"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:5 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "С"
+                            "confidence" => 0.9471955299
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "точки"
+                            "confidence" => 0.9471955299
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "зрения"
+                            "confidence" => 0.9471955299
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языкового"
+                            "confidence" => 0.9471955299
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "развития"
+                            "confidence" => 0.9471955299
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9471955299
+                      ]
+                    ]
+                  ]
+                  8 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "355"
+                          "y" => "275"
+                        ]
+                        1 => array:2 [
+                          "x" => "355"
+                          "y" => "287"
+                        ]
+                        2 => array:2 [
+                          "x" => "566"
+                          "y" => "287"
+                        ]
+                        3 => array:2 [
+                          "x" => "566"
+                          "y" => "275"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:5 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "век"
+                            "confidence" => 0.9511354566
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "был"
+                            "confidence" => 0.9511354566
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "переходным"
+                            "confidence" => 0.9511354566
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "периодом"
+                            "confidence" => 0.9511354566
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "от"
+                            "confidence" => 0.9511354566
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9511354566
+                      ]
+                    ]
+                  ]
+                  9 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "603"
+                          "y" => "275"
+                        ]
+                        1 => array:2 [
+                          "x" => "603"
+                          "y" => "286"
+                        ]
+                        2 => array:2 [
+                          "x" => "643"
+                          "y" => "286"
+                        ]
+                        3 => array:2 [
+                          "x" => "643"
+                          "y" => "275"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:2 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "века"
+                            "confidence" => 0.9074832797
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "с"
+                            "confidence" => 0.9074832797
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9074832797
+                      ]
+                    ]
+                  ]
+                  10 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "65"
+                          "y" => "290"
+                        ]
+                        1 => array:2 [
+                          "x" => "65"
+                          "y" => "303"
+                        ]
+                        2 => array:2 [
+                          "x" => "641"
+                          "y" => "303"
+                        ]
+                        3 => array:2 [
+                          "x" => "641"
+                          "y" => "290"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:13 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "его"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "двуязычием"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "и"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "отсутствием"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "строгих"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "норм"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "к"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "периоду"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "от"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "Петровской"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          10 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "эпохи"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          11 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "до"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                          12 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "эпохи"
+                            "confidence" => 0.9576812983
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9576812983
+                      ]
+                    ]
+                  ]
+                  11 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "65"
+                          "y" => "306"
+                        ]
+                        1 => array:2 [
+                          "x" => "65"
+                          "y" => "517"
+                        ]
+                        2 => array:2 [
+                          "x" => "646"
+                          "y" => "517"
+                        ]
+                        3 => array:2 [
+                          "x" => "646"
+                          "y" => "306"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:15 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:11 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "A.С."
+                            "confidence" => 0.9384129047
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "Пушкина."
+                            "confidence" => 0.9384129047
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "Этот"
+                            "confidence" => 0.9384129047
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "сложный"
+                            "confidence" => 0.9384129047
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "этап"
+                            "confidence" => 0.9384129047
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в"
+                            "confidence" => 0.9384129047
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "развитии"
+                            "confidence" => 0.9384129047
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "русского"
+                            "confidence" => 0.9384129047
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "национального"
+                            "confidence" => 0.9384129047
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языка"
+                            "confidence" => 0.9384129047
+                            "entityIndex" => "-1"
+                          ]
+                          10 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "характеризует-"
+                            "confidence" => 0.9384129047
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9384129047
+                      ]
+                      1 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:11 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "ся"
+                            "confidence" => 0.8953880668
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "перестройкой"
+                            "confidence" => 0.8953880668
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "всей"
+                            "confidence" => 0.8953880668
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языковой"
+                            "confidence" => 0.8953880668
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "системы,"
+                            "confidence" => 0.8953880668
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в"
+                            "confidence" => 0.8953880668
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "процессе"
+                            "confidence" => 0.8953880668
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "которой"
+                            "confidence" => 0.8953880668
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "складывались"
+                            "confidence" => 0.8953880668
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "единые"
+                            "confidence" => 0.8953880668
+                            "entityIndex" => "-1"
+                          ]
+                          10 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "нормы"
+                            "confidence" => 0.8953880668
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.8953880668
+                      ]
+                      2 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:10 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "письменно"
+                            "confidence" => 0.9503395557
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "книжной"
+                            "confidence" => 0.9503395557
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "и"
+                            "confidence" => 0.9503395557
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "устно"
+                            "confidence" => 0.9503395557
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "разговорной"
+                            "confidence" => 0.9503395557
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "форм"
+                            "confidence" => 0.9503395557
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "литературного"
+                            "confidence" => 0.9503395557
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языка."
+                            "confidence" => 0.9503395557
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "Литературный"
+                            "confidence" => 0.9503395557
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "язык"
+                            "confidence" => 0.9503395557
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9503395557
+                      ]
+                      3 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:15 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "постепенно"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "вбирал"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "себя"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "все"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "лучшее,"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "что"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "было"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "национальном"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          10 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языке,"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          11 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "а"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          12 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "то,"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          13 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "что"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                          14 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "бесследно"
+                            "confidence" => 0.9559826255
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9559826255
+                      ]
+                      4 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:12 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "уходило"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "из"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "литературного"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языка,"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "продолжало"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "жить"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "диалектах"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "и"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "находило"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                          10 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "частичное"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                          11 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "отра-"
+                            "confidence" => 0.9479529858
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9479529858
+                      ]
+                      5 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:12 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "жение"
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в"
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языке"
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "местной"
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "деловой"
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "письменности."
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "В"
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "связи"
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "с"
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "этим"
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                          10 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "тексты"
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                          11 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "делопроизводства"
+                            "confidence" => 0.9542242885
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9542242885
+                      ]
+                      6 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:2 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "г."
+                            "confidence" => 0.9164491892
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "Тобольска"
+                            "confidence" => 0.9164491892
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9164491892
+                      ]
+                      7 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:8 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в.,"
+                            "confidence" => 0.9472514987
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "написанные"
+                            "confidence" => 0.9472514987
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "на"
+                            "confidence" => 0.9472514987
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "периферии,"
+                            "confidence" => 0.9472514987
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "представляют"
+                            "confidence" => 0.9472514987
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "собой"
+                            "confidence" => 0.9472514987
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "бесценный"
+                            "confidence" => 0.9472514987
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "источник"
+                            "confidence" => 0.9472514987
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9472514987
+                      ]
+                      8 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:11 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "для"
+                            "confidence" => 0.9761125445
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "изучения"
+                            "confidence" => 0.9761125445
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "диалектной"
+                            "confidence" => 0.9761125445
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "лексики"
+                            "confidence" => 0.9761125445
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в"
+                            "confidence" => 0.9761125445
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "лексикографическом"
+                            "confidence" => 0.9761125445
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "аспекте."
+                            "confidence" => 0.9761125445
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "Между"
+                            "confidence" => 0.9761125445
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "тем"
+                            "confidence" => 0.9761125445
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "тексты"
+                            "confidence" => 0.9761125445
+                            "entityIndex" => "-1"
+                          ]
+                          10 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "сибир-"
+                            "confidence" => 0.9761125445
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9761125445
+                      ]
+                      9 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:10 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "ского"
+                            "confidence" => 0.9701383114
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "делопроизводства"
+                            "confidence" => 0.9701383114
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "лишь"
+                            "confidence" => 0.9701383114
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "частично"
+                            "confidence" => 0.9701383114
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "попали"
+                            "confidence" => 0.9701383114
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в"
+                            "confidence" => 0.9701383114
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "число"
+                            "confidence" => 0.9701383114
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "источников"
+                            "confidence" => 0.9701383114
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "переиздаваемого"
+                            "confidence" => 0.9701383114
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "ныне"
+                            "confidence" => 0.9701383114
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9701383114
+                      ]
+                      10 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:3 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "«Словаря"
+                            "confidence" => 0.9471598268
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "русского"
+                            "confidence" => 0.9471598268
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языка"
+                            "confidence" => 0.9471598268
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9471598268
+                      ]
+                      11 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:10 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "века»,"
+                            "confidence" => 0.9344436526
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в"
+                            "confidence" => 0.9344436526
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "то"
+                            "confidence" => 0.9344436526
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "же"
+                            "confidence" => 0.9344436526
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "время"
+                            "confidence" => 0.9344436526
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "без"
+                            "confidence" => 0.9344436526
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "исторического"
+                            "confidence" => 0.9344436526
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "словаря"
+                            "confidence" => 0.9344436526
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "диалектной"
+                            "confidence" => 0.9344436526
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "и"
+                            "confidence" => 0.9344436526
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9344436526
+                      ]
+                      12 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:9 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "просторечной"
+                            "confidence" => 0.9033697844
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "лексики"
+                            "confidence" => 0.9033697844
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "невозможно"
+                            "confidence" => 0.9033697844
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "представить"
+                            "confidence" => 0.9033697844
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "все"
+                            "confidence" => 0.9033697844
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "богатство"
+                            "confidence" => 0.9033697844
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "лексики"
+                            "confidence" => 0.9033697844
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "русского"
+                            "confidence" => 0.9033697844
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "националь-"
+                            "confidence" => 0.9033697844
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9033697844
+                      ]
+                      13 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:13 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "ного"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языка"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "и"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "выявить"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "те"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "процессы,"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          6 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "которые"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          7 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "происходили"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          8 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          9 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языке"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          10 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "при"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          11 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "отборе"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                          12 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "лексических"
+                            "confidence" => 0.9414370656
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9414370656
+                      ]
+                      14 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:6 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "средств"
+                            "confidence" => 0.9495497346
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "в"
+                            "confidence" => 0.9495497346
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "период"
+                            "confidence" => 0.9495497346
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "нормализации"
+                            "confidence" => 0.9495497346
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "литературного"
+                            "confidence" => 0.9495497346
+                            "entityIndex" => "-1"
+                          ]
+                          5 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "языка."
+                            "confidence" => 0.9495497346
+                            "entityIndex" => "-1"
+                          ]
+                        ]
+                        "confidence" => 0.9495497346
+                      ]
+                    ]
+                  ]
+                  12 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "65"
+                          "y" => "520"
+                        ]
+                        1 => array:2 [
+                          "x" => "65"
+                          "y" => "665"
+                        ]
+                        2 => array:2 [
+                          "x" => "646"
+                          "y" => "665"
+                        ]
+                        3 => array:2 [
+                          "x" => "646"
+                          "y" => "520"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:10 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [
+                            0 => array:2 [ …2]
+                            1 => array:2 [ …2]
+                            2 => array:2 [ …2]
+                            3 => array:2 [ …2]
+                          ]
+                        ]
+                        "words" => array:10 [
+                          0 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "В"
+                            "confidence" => 0.9419758916
+                            "entityIndex" => "-1"
+                          ]
+                          1 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "русистике"
+                            "confidence" => 0.9419758916
+                            "entityIndex" => "-1"
+                          ]
+                          2 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "последних"
+                            "confidence" => 0.9419758916
+                            "entityIndex" => "-1"
+                          ]
+                          3 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "десятилетий"
+                            "confidence" => 0.9419758916
+                            "entityIndex" => "-1"
+                          ]
+                          4 => array:5 [
+                            "boundingBox" => array:1 [ …1]
+                            "languages" => array:1 [ …1]
+                            "text" => "работа"
+                            "confidence" => 0.9419758916
+                             …1
+                          ]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9419758916
+                      ]
+                      1 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:3 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9495126605
+                      ]
+                      2 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:6 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9488665462
+                      ]
+                      3 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:10 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9341205955
+                      ]
+                      4 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:11 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                          10 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9587323666
+                      ]
+                      5 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:10 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9483980536
+                      ]
+                      6 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:9 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9444816113
+                      ]
+                      7 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:10 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.8915717602
+                      ]
+                      8 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:8 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9423877001
+                      ]
+                      9 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:7 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9547662735
+                      ]
+                    ]
+                  ]
+                  13 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "62"
+                          "y" => "666"
+                        ]
+                        1 => array:2 [
+                          "x" => "62"
+                          "y" => "731"
+                        ]
+                        2 => array:2 [
+                          "x" => "645"
+                          "y" => "731"
+                        ]
+                        3 => array:2 [
+                          "x" => "645"
+                          "y" => "666"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:4 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:9 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.943936646
+                      ]
+                      1 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:12 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                          10 => array:5 [ …5]
+                          11 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9140639901
+                      ]
+                      2 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:12 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                          10 => array:5 [ …5]
+                          11 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.8922299147
+                      ]
+                      3 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:3 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.943475306
+                      ]
+                    ]
+                  ]
+                  14 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "63"
+                          "y" => "735"
+                        ]
+                        1 => array:2 [
+                          "x" => "63"
+                          "y" => "846"
+                        ]
+                        2 => array:2 [
+                          "x" => "647"
+                          "y" => "846"
+                        ]
+                        3 => array:2 [
+                          "x" => "647"
+                          "y" => "735"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:8 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:8 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9680076241
+                      ]
+                      1 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:9 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.8965616822
+                      ]
+                      2 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:10 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9510099888
+                      ]
+                      3 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:12 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                          10 => array:5 [ …5]
+                          11 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9371016622
+                      ]
+                      4 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:11 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                          10 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9481980801
+                      ]
+                      5 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:2 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9403805137
+                      ]
+                      6 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:7 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.960683763
+                      ]
+                      7 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:11 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                          10 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.924729228
+                      ]
+                    ]
+                  ]
+                  15 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "104"
+                          "y" => "850"
+                        ]
+                        1 => array:2 [
+                          "x" => "104"
+                          "y" => "861"
+                        ]
+                        2 => array:2 [
+                          "x" => "225"
+                          "y" => "861"
+                        ]
+                        3 => array:2 [
+                          "x" => "225"
+                          "y" => "850"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:3 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9347084165
+                      ]
+                    ]
+                  ]
+                  16 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "272"
+                          "y" => "848"
+                        ]
+                        1 => array:2 [
+                          "x" => "272"
+                          "y" => "862"
+                        ]
+                        2 => array:2 [
+                          "x" => "586"
+                          "y" => "862"
+                        ]
+                        3 => array:2 [
+                          "x" => "586"
+                          "y" => "848"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:7 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9337978959
+                      ]
+                    ]
+                  ]
+                  17 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "64"
+                          "y" => "866"
+                        ]
+                        1 => array:2 [
+                          "x" => "64"
+                          "y" => "879"
+                        ]
+                        2 => array:2 [
+                          "x" => "352"
+                          "y" => "879"
+                        ]
+                        3 => array:2 [
+                          "x" => "352"
+                          "y" => "866"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:1 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:5 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9460336566
+                      ]
+                    ]
+                  ]
+                  18 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "65"
+                          "y" => "865"
+                        ]
+                        1 => array:2 [
+                          "x" => "65"
+                          "y" => "912"
+                        ]
+                        2 => array:2 [
+                          "x" => "646"
+                          "y" => "912"
+                        ]
+                        3 => array:2 [
+                          "x" => "646"
+                          "y" => "865"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:4 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:5 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9349919558
+                      ]
+                      1 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:5 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.959643662
+                      ]
+                      2 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:7 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9519038796
+                      ]
+                      3 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:3 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9362127185
+                      ]
+                    ]
+                  ]
+                  19 => array:2 [
+                    "boundingBox" => array:1 [
+                      "vertices" => array:4 [
+                        0 => array:2 [
+                          "x" => "63"
+                          "y" => "897"
+                        ]
+                        1 => array:2 [
+                          "x" => "63"
+                          "y" => "928"
+                        ]
+                        2 => array:2 [
+                          "x" => "640"
+                          "y" => "928"
+                        ]
+                        3 => array:2 [
+                          "x" => "640"
+                          "y" => "897"
+                        ]
+                      ]
+                    ]
+                    "lines" => array:3 [
+                      0 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:3 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.9487594962
+                      ]
+                      1 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:2 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.8829017282
+                      ]
+                      2 => array:3 [
+                        "boundingBox" => array:1 [
+                          "vertices" => array:4 [ …4]
+                        ]
+                        "words" => array:13 [
+                          0 => array:5 [ …5]
+                          1 => array:5 [ …5]
+                          2 => array:5 [ …5]
+                          3 => array:5 [ …5]
+                          4 => array:5 [ …5]
+                          5 => array:5 [ …5]
+                          6 => array:5 [ …5]
+                          7 => array:5 [ …5]
+                          8 => array:5 [ …5]
+                          9 => array:5 [ …5]
+                          10 => array:5 [ …5]
+                          11 => array:5 [ …5]
+                          12 => array:5 [ …5]
+                        ]
+                        "confidence" => 0.96965909
+                      ]
+                    ]
+                  ]
+                ]
+                "width" => "709"
+                "height" => "1003"
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

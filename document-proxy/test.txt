@@ -1,0 +1,6 @@
+
+In yandex.php line 12:
+                                                     
+  syntax error, unexpected token ";", expecting "]"  
+                                                     
+
